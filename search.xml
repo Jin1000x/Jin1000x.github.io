@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[For myself]]></title>
+    <title><![CDATA[开始之前]]></title>
     <url>%2FFor-myself%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[每天每时每刻，我们总会和一些人擦身而过，亦或者与相识在路口分别。 但其实永远都不知道，那很可能是你们彼此间人生中最后的一次见面。 而对此更糟糕的事便是。 来不及说再见，就再也不见。 有幸学习到计算方面的知识，更有幸能成为IT行业的一份子。 可以亲手制作属于自己独特的博客，属于自己的一方空间。 记录属于自己的痕迹。]]></content>
+      <categories>
+        <category>记录生活</category>
+      </categories>
       <tags>
-        <tag>For myself</tag>
+        <tag>日常</tag>
+        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
