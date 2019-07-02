@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[clean up 报错]]></title>
     <url>%2Fsvn-clean%20up%E6%8A%A5%E9%94%99%2F</url>
-    <content type="text"><![CDATA[问题详情解决方案1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。![错误信息](svn-clean up报错/报错信息.png)2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。![启动数据库](svn-clean up报错/安装启动.png)3、输入： .table 就会显示所有的表。![显示表信息](svn-clean up报错/显示.png)4、主要关注 wc_lock 和 work_queue这两种表。执行命令： delete from wc_lock; delete from work_queue; 清空表的数据就可以了。]]></content>
+    <content type="text"><![CDATA[问题详情![错误信息](svn-clean up报错/错误信息.png) 解决方案1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。![安装](svn-clean up报错/安装.png)2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。![启动数据库](svn-clean up报错/启动.png)3、输入： .table 就会显示所有的表。![显示表信息](svn-clean up报错/显示.png)4、主要关注 wc_lock 和 work_queue这两种表。执行命令： delete from wc_lock; delete from work_queue; 清空表的数据就可以了。]]></content>
       <categories>
         <category>svn</category>
       </categories>

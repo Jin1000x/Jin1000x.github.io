@@ -52,15 +52,16 @@
     <link href="https://jin1000x.github.io/svn-clean%20up%E6%8A%A5%E9%94%99/"/>
     <id>https://jin1000x.github.io/svn-clean up报错/</id>
     <published>2019-06-28T08:32:12.000Z</published>
-    <updated>2019-07-02T08:09:26.481Z</updated>
+    <updated>2019-07-02T08:18:27.569Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="问题详情"><a href="#问题详情" class="headerlink" title="问题详情"></a>问题详情</h3><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。<br>![错误信息](svn-clean up报错/报错信息.png)<br>2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。<br>![启动数据库](svn-clean up报错/安装启动.png)<br>3、输入： .table   就会显示所有的表。<br>![显示表信息](svn-clean up报错/显示.png)<br>4、主要关注 wc_lock 和 work_queue这两种表。执行命令：<br>    delete from wc_lock;<br>    delete from work_queue;<br>   清空表的数据就可以了。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="问题详情"><a href="#问题详情" class="headerlink" title="问题详情"></a>问题详情</h3><p>![错误信息](svn-clean up报错/错误信息.png)</p><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。<br>![安装](svn-clean up报错/安装.png)<br>2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。<br>![启动数据库](svn-clean up报错/启动.png)<br>3、输入： .table   就会显示所有的表。<br>![显示表信息](svn-clean up报错/显示.png)<br>4、主要关注 wc_lock 和 work_queue这两种表。执行命令：<br>    delete from wc_lock;<br>    delete from work_queue;<br>   清空表的数据就可以了。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;问题详情&quot;&gt;&lt;a href=&quot;#问题详情&quot; class=&quot;headerlink&quot; title=&quot;问题详情&quot;&gt;&lt;/a&gt;问题详情&lt;/h3&gt;&lt;h3 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a
+        &lt;h3 id=&quot;问题详情&quot;&gt;&lt;a href=&quot;#问题详情&quot; class=&quot;headerlink&quot; title=&quot;问题详情&quot;&gt;&lt;/a&gt;问题详情&lt;/h3&gt;&lt;p&gt;![错误信息](svn-clean up报错/错误信息.png)&lt;/p&gt;
+&lt;h3 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解
       
     
     </summary>

@@ -566,7 +566,8 @@
       
         
           
-            <h3 id="问题详情"><a href="#问题详情" class="headerlink" title="问题详情"></a>问题详情</h3><h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。<br>![错误信息](svn-clean up报错/报错信息.png)<br>2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。<br>![启动数据库](svn-clean up报错/安装启动.png)<br>3、输入： .table   就会显示所有的表。<br>![显示表信息](svn-clean up报错/显示.png)<br>4、主要关注 wc_lock 和 work_queue这两种表。执行命令：<br>    delete from wc_lock;<br>    delete from work_queue;<br>   清空表的数据就可以了。</p>
+            <h3 id="问题详情"><a href="#问题详情" class="headerlink" title="问题详情"></a>问题详情</h3><p>![错误信息](svn-clean up报错/错误信息.png)</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。<br>![安装](svn-clean up报错/安装.png)<br>2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。<br>![启动数据库](svn-clean up报错/启动.png)<br>3、输入： .table   就会显示所有的表。<br>![显示表信息](svn-clean up报错/显示.png)<br>4、主要关注 wc_lock 和 work_queue这两种表。执行命令：<br>    delete from wc_lock;<br>    delete from work_queue;<br>   清空表的数据就可以了。</p>
 
           
         
@@ -824,7 +825,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -919,7 +920,7 @@
 	<span class="post-meta-divider">|</span>
 	<div class="theme-info">
 	  <div class="powered-by"></div>
-	  <span class="post-count">博客全站共351字</span>
+	  <span class="post-count">博客全站共359字</span>
 	</div>
 
 
