@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[clean up 报错]]></title>
-    <url>%2Fsvn-clean%20up%E6%8A%A5%E9%94%99%2F</url>
-    <content type="text"><![CDATA[问题详情![错误信息](svn-clean up报错/错误信息.png) 解决方案1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。![安装](svn-clean up报错/安装.png) 2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。![启动数据库](svn-clean up报错/启动.png) 3、输入： .table 就会显示所有的表。![显示表信息](svn-clean up报错/显示.png) 4、主要关注 wc_lock 和 work_queue这两种表。执行命令： delete from wc_lock; delete from work_queue; 清空表的数据就可以了。]]></content>
-      <categories>
-        <category>svn</category>
-      </categories>
-      <tags>
-        <tag>问题记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[开始之前]]></title>
     <url>%2FFor-myself%2F</url>
     <content type="text"><![CDATA[每天每时每刻，我们总会和一些人擦身而过，亦或者与相识在路口分别。 但其实永远都不知道，那很可能是你们彼此间人生中最后的一次见面。 而对此更糟糕的事便是。 来不及说再见，就再也不见。 有幸学习到计算方面的知识，更有幸能成为IT行业的一份子。 可以亲手制作属于自己独特的博客，属于自己的一方空间。 记录属于自己的痕迹。]]></content>
@@ -21,6 +10,17 @@
       <tags>
         <tag>日常</tag>
         <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[clean up 报错]]></title>
+    <url>%2Fsvn-clean%20up%E6%8A%A5%E9%94%99%2F</url>
+    <content type="text"><![CDATA[问题详情![错误信息](svn-clean up报错/错误信息.png) 解决方案1、下载sqlite3.exe ，放在.svn文件下。使用cmd启动命令界面。![安装](svn-clean up报错/安装.png) 2、在cmd中输入：sqlite3.exe wc.db 就会进入数据库，也就是sqlite的命令行环境。![启动数据库](svn-clean up报错/启动.png) 3、输入： .table 就会显示所有的表。![显示表信息](svn-clean up报错/显示.png) 4、主要关注 wc_lock 和 work_queue这两种表。执行命令： delete from wc_lock; delete from work_queue; 清空表的数据就可以了。]]></content>
+      <categories>
+        <category>svn</category>
+      </categories>
+      <tags>
+        <tag>问题记录</tag>
       </tags>
   </entry>
 </search>
